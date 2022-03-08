@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+body {
+    font-family: Roboto;
+    width: 800px;
+}
+
+img {
+    width: 800px;
+    height: 800px;
+}
+
+.outer-box {
+    display: inline-block;
+}
+
+
+.header {
+    margin: 15px;
+}
+
+.photo-box {
+
+}
+
+.outer-bottom-box {
+    margin: 15px;
+
+}
+
+.like-icons {
+    
+}
+.fa-bookmark {
+    float: right;
+}
+        
+.liked-by {
+
+}
+
+.bottom-text {
+
+}
