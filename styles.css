@@ -1,54 +1,67 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #000;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
-    margin: 0;
-}
-* {
-	border: 1px dashed red;
-	min-height: 10px;
+  box-sizing: inherit;
+  margin: 0;
 }
 
 body {
-    font-family: Roboto;
-    width: 800px;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 13px;
+  width: 400px;
 }
 
 img {
-    width: 800px;
-    height: 800px;
+  width: 400px;
+  height: 350px;
 }
 
 .outer-box {
-    display: inline-block;
+  margin: 50px auto auto;
+  background-color: #fff;
 }
-
 
 .header {
-    margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 15px;
+  padding-top: 15px;
+  width: 370px;
 }
 
-.photo-box {
+.fa-html5 {
+  padding-top: 5px;
+}
 
+.header-text {
+  padding: 0 0 0 10px;
+}
+.header-menu {
+  padding-left: 280px;
 }
 
 .outer-bottom-box {
-    margin: 15px;
-
+  margin: 15px;
 }
 
-.like-icons {
-    
+.like-icons, .fa-html5, .fa-ellipsis-v {
+  font-size: 25px;
 }
 .fa-bookmark {
-    float: right;
+  float: right;
 }
-        
-.liked-by {
 
+.liked-by {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 15px auto;
 }
 
 .bottom-text {
-
+  padding: 0 0 25px 0;
 }
