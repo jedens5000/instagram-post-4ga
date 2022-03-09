@@ -27,21 +27,16 @@ img {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  margin: 15px;
-  padding-top: 15px;
-  width: 370px;
-}
-
-.fa-html5 {
-  padding-top: 5px;
+  align-items: center;   
+  padding: 15px;
 }
 
 .header-text {
   padding: 0 0 0 10px;
 }
-.header-menu {
-  padding-left: 280px;
+
+.spacer {
+  flex-grow: 1;
 }
 
 .outer-bottom-box {
